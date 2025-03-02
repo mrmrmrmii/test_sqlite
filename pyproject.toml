@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "test-sqlite"
+version = "0.1.0"
+description = ""
+authors = ["Глеб Храмов <assaa2015@mal.ru>"]
+readme = "README.md"
+packages = [{include = "test"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+aiosqlite = "^0.21.0"
+sqlalchemy = "^2.0.38"
+fastapi = "^0.115.9"
+uvicorn = "^0.34.0"
+alembic = "^1.14.1"
+pytz = "^2025.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
